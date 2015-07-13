@@ -17,6 +17,12 @@
             "email": "xatzistnr@gmail.com"
         }
     ],
+     "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/xatzistnr/EloquentDataTable.git"
+        }
+        ]
     "require": {
         "php": ">=5.4.0",
         "illuminate/database": "5.*"
