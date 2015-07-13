@@ -244,7 +244,7 @@ class DataTable
         $this->builder = $this->builder->where(
             function ($query) use ($search) {
                 foreach ($this->columnNames as $column) {
-                    $query->orWhere($column, 'like', '%' . $search . '%');
+                    $query->orWhere($column, 'RLIKE',$search );
                 }
             }
         );
@@ -256,8 +256,8 @@ class DataTable
             if ( static::$versionTransformer->isColumnSearched($i) ) {
                 $this->builder->where(
                     $column,
-                    'like',
-                    '%' . static::$versionTransformer->getColumnSearchValue($i) . '%'
+                    'RLIKE',
+                     static::$versionTransformer->getColumnSearchValue($i)
                 );
             }
         }
