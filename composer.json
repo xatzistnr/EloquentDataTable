@@ -1,5 +1,7 @@
 {
-    "name": "livecontrol/eloquent-datatable",
+
+    "name": "xatzistnr/eloquent-datatable",
+
     "description": "Eloquent DataTable plugin for server side ajax call handling. Fork from livecontrol/eloquent-datatable",
     "keywords": [
         "eloquent",
@@ -17,6 +19,7 @@
             "email": "xatzistnr@gmail.com"
         }
     ],
+   
     "require": {
         "php": ">=5.4.0",
         "illuminate/database": "5.*"
