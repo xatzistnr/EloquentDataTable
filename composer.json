@@ -1,6 +1,6 @@
 {
     "name": "livecontrol/eloquent-datatable",
-    "description": "Eloquent DataTable plugin for server side ajax call handling.",
+    "description": "Eloquent DataTable plugin for server side ajax call handling. Fork from livecontrol/eloquent-datatable",
     "keywords": [
         "eloquent",
         "laravel",
